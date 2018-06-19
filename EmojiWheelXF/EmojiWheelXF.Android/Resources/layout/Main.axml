@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+  <RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"  android:layout_width="match_parent" android:layout_height="match_parent" >
+    <github.hellocsl.cursorwheel.CursorWheelLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/wheel_image"
+        android:layout_width="280dip"
+        android:layout_height="280dip"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_centerHorizontal="true"
+        app:wheelPaddingRadio="0.025"
+        app:wheelCursorColor="#009688"
+        app:wheelCursorHeight="19dip"
+        app:wheelFlingValue="@android:integer/config_longAnimTime"
+        app:wheelBackgroundColor="@android:color/transparent"
+        app:wheelItemRotateMode="inward"
+        app:wheelSelectedAngle="90">
+    </github.hellocsl.cursorwheel.CursorWheelLayout>
+  </RelativeLayout>
+  <!--Eclipse-->
+  <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@+id/WheelContainer" android:layout_width="280dip" android:layout_height="280dip" android:layout_centerHorizontal="true" />
+  </RelativeLayout>
+</FrameLayout>
+<!--NUMBER PIKCER BELOW-->
+<!--<github.hellocsl.cursorwheel.CursorWheelLayout
+        android:id="@+id/wheel_text"
+        android:layout_width="280dip"
+        android:layout_height="280dip"
+        android:layout_centerHorizontal="true"
+        app:wheelCursorColor="#009688"
+        app:wheelCursorHeight="19dip"
+        app:wheelItemRotateMode="inward"
+        app:wheelSelectedAngle="270"
+        android:adjustViewBounds="true"
+      android:weightSum="2">
+        <TextView
+          android:id="@+id/id_wheel_menu_center_item"
+            android:gravity="center"
+            android:textColor="#009688"
+            android:layout_width="1dip"
+            android:layout_height="1dip"
+          android:adjustViewBounds="true"
+          
+          android:background="#ff0000"
+            style="@style/TextAppearance.AppCompat.Large.Inverse"
+    android:layout_weight="1"/>
+    </github.hellocsl.cursorwheel.CursorWheelLayout>-->
